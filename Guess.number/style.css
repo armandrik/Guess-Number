@@ -1,0 +1,88 @@
+*{
+    margin: auto;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body{
+    background: #2d3046;
+}
+button{
+   background-image: linear-gradient( 65.9deg,  rgba(85,228,224,1) 5.5%, rgba(75,68,224,0.74) 54.2%, rgba(64,198,238,1) 55.2%, rgba(177,36,224,1) 98.4% );
+   margin: 10px;
+   padding: 15px 45px;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   font-size: x-large;
+}
+button:hover{
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+   color: aqua;
+   box-shadow: 0 0 20px 5px rgba(177,36,224,1);
+   cursor: pointer;
+}
+h3:first-child{
+    font-size: 35px;
+    color: white;
+    height: 7vh;
+    border-radius: 10px;
+    width: 60%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-image: linear-gradient( 65.9deg,  rgba(85,228,224,1) 5.5%, rgba(75,68,224,0.74) 54.2%, rgba(64,198,238,1) 55.2%, rgba(177,36,224,1) 98.4% );
+}
+div > div{
+    width: 60%;
+    height: 10vh;
+    margin-bottom: 5%;
+    padding-top: 15px;
+    border-radius: 10px;
+    background-image: linear-gradient( 65.9deg,  rgba(85,228,224,1) 5.5%, rgba(75,68,224,0.74) 54.2%, rgba(64,198,238,1) 55.2%, rgba(177,36,224,1) 98.4% );
+}
+.numb{
+    border-radius: 10px;
+    margin-left: 10px;
+}
+#gameOver{
+    width: 24%;
+    font-size: 40px;
+    margin-top: 7%;
+    margin-bottom: 0;
+    border-radius: 10px;
+    background-image: linear-gradient( 65.9deg,  rgba(85,228,224,1) 5.5%, rgba(75,68,224,0.74) 54.2%, rgba(64,198,238,1) 55.2%, rgba(177,36,224,1) 98.4% );
+    color: rgba(255, 64, 64, 0.795);
+    box-shadow: 0 0 22px 7px rgba(85,228,224,1);
+}
+.countiner{
+    position: relative;
+    top: 5%;
+    border: 1px solid 292c3f;
+    text-align: center;
+    width: 70%;
+    height: 90vh;
+    padding-top: 10px;
+    border-radius: 31px;
+    background: linear-gradient(90deg, #323650, #6a72a5);
+    box-shadow:  -5px -5px 14px #60668d,5px 5px 14px #5e6281;
+}
+i{
+    position: relative;
+    top: 100px;
+    right: 20px;
+    margin-left: 5%;
+}
+#first{
+    color: #4a9bff;
+    font-size: large;
+}
+#second{
+    color: #dbff57;
+    font-size: large;
+}
